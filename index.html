@@ -27,7 +27,7 @@
 
 	<!-- back to top -->
 
-	<a href="#" class="toppo button icon fas fa-arrow-up">Page Top</a>
+	<a id="back2Top" title="Back to top" href="#"><i class="icon fas fa-arrow-up"></i></a>
 
 
 
@@ -323,11 +323,36 @@
 		</div>
 	</footer>
 
+
+
+
+
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+
+
+	<script>/*Scroll to top when arrow up clicked BEGIN*/
+		$(window).scroll(function () {
+			var height = $(window).scrollTop();
+			if (height > 100) {
+				$('#back2Top').fadeIn();
+			} else {
+				$('#back2Top').fadeOut();
+			}
+		});
+		$(document).ready(function () {
+			$("#back2Top").click(function (event) {
+				event.preventDefault();
+				$("html, body").animate({ scrollTop: 0 }, "slow");
+				return false;
+			});
+
+		});
+	 /*Scroll to top when arrow up clicked END*/</script>
+
 
 </body>
 
