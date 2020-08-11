@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
+@import "https://fonts.googleapis.com/css?family=Raleway:100,300,400,600,700";
 
 /* Reset */
 
@@ -1580,7 +1580,7 @@
 
 /* Type */
 
-	body, input, select, textarea {
+	body, input, select, textarea, .banner {
 		color: #9a9a9a;
 		font-family: "Raleway", Arial, Helvetica, sans-serif;
 		font-size: 13pt;
@@ -2329,11 +2329,13 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			
 		}
 
 			ul.icons li {
 				display: inline-block;
 				padding: 0 1em 0 0;
+				margin-left: .7em;
 			}
 
 				ul.icons li:last-child {
@@ -2935,7 +2937,7 @@
 		padding: 12em 0 10em 0;
 		background-image: url('../../images/banner.jpg');
 		background-size: cover;
-		background-position: top;
+		background-position: center;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		text-align: center;
