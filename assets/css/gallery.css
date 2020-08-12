@@ -1,0 +1,30 @@
+.container3d{
+    padding: 40px 0;
+}
+figure{
+    max-width: 800px;
+    margin: 0 auto 40px;
+    border: 2px solid white;
+}
+figure img{
+    display: block !important;
+    max-width: 100%;
+    min-width: 100%;
+}
+.thumb_img_list{
+    
+}
+.thumb_img_list ul{
+list-style: none !important;
+margin: 0;
+padding: 0;
+}
+.thumb_img_list ul li{
+display: inline-block !important;
+border: 1px solid white;
+width: 100px;
+margin: 0 5px;
+}
+.thumb_img_list ul li img{
+display: block !important;
+}
