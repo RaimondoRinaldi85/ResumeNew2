@@ -1777,6 +1777,9 @@
 
 		section.special article, article.special article {
 			text-align: left;
+			
+			padding: 1em;
+			border-radius: 20px;
 		}
 
 	section.wrapper, article.wrapper {
@@ -1902,7 +1905,8 @@
 
 		.flex.flex-3 article {
 			position: relative;
-			width: 28%;
+			width: 30%;
+			margin-bottom: 3em
 		}
 
 			.flex.flex-3 article:before {
@@ -1912,7 +1916,6 @@
 				height: 100%;
 				right: -2em;
 				top: 0;
-				border-right: 1px solid #dbdbdb;
 				pointer-events: none;
 			}
 
