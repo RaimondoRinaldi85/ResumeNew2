@@ -3210,10 +3210,10 @@
 	}
 	
 	.slider .left-slide{
-		left: 3px;
+		left: 0px;
 	}
 	.slider .right-slide{
-		right: 3px;
+		right: 0px;
 	}
 	.slider .slider-items .item img{
 		max-width: 100%;
