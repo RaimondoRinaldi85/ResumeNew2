@@ -1818,12 +1818,12 @@
 		}
 
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
-				color: #fff;
-				text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.712);
+				color: rgb(0, 0, 0);
+				
 			}
 
 			section.wrapper.style1 header p, article.wrapper.style1 header p {
-				color: #ffffff;
+				color: #000000;
 			}
 
 			section.wrapper.style1 h3, article.wrapper.style1 h3 {
