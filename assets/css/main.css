@@ -3046,31 +3046,18 @@
 /* Footer */
 
 	#footer .inner {
-		border-top: 1px solid #dbdbdb;
-		padding-top: 3em;
+
+		padding-top: 1em;
 	}
 
 	#footer .copyright {
-		color: rgb(65, 65, 65);
+		text-align: center;
+		color: rgb(129, 129, 129);
 		font-size: 0.8em;
-		margin: 0 0 2em 0;
+		font-weight: 400;
+		margin: 0;
 		padding: 0;
 	}
-
-		#footer .copyright a {
-			color: #bbb;
-			text-decoration: none;
-		}
-
-			#footer .copyright a:hover {
-				color: #bbb;
-				text-decoration: underline;
-			}
-
-	#footer ul.icons li .icon {
-		font-size: 0.58em;
-	}
-
 	@media screen and (max-width: 736px) {
 
 		#footer .inner {
@@ -3103,6 +3090,17 @@
 
 	}
 
+	.youtube{
+		padding: 1em;
+		border-top: 1px rgba(0, 0, 0, 0.452) solid;
+		border-bottom: 1px rgba(0, 0, 0, 0.452) solid;
+		border-radius: 20px;
+		margin-bottom: 2em;
+	}
+
+	iframe{
+		max-width: 100%;
+	}
 
 
 
