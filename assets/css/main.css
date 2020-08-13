@@ -1658,7 +1658,7 @@
 		color: #5385c1;
 		font-weight: 300;
 		line-height: 1.5;
-		margin: 0 0 1em 0;
+		margin: 0 0 .5em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1668,7 +1668,7 @@
 
 	h2 {
 		font-size: 1.75em;
-		font-weight: 100;
+		font-weight: 300;
 	}
 
 	h3 {
@@ -1786,6 +1786,7 @@
 			border-radius: 20px;
 			border-bottom: 1px solid rgba(0, 0, 0, 0.253);
 			border-top: 1px solid rgba(0, 0, 0, 0.253);
+			margin-bottom: 3em;
 		}
 
 	
@@ -1812,12 +1813,13 @@
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
-			background: #5385c1;
+			background: linear-gradient(-45deg, #E19D5D, rgba(255, 255, 255, 0.493), #1461FB);
 			color: #bacee6;
 		}
 
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
 				color: #fff;
+				text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.712);
 			}
 
 			section.wrapper.style1 header p, article.wrapper.style1 header p {
@@ -1865,7 +1867,7 @@
 		}
 
 	header p {
-		color: #bbb;
+		color: rgb(51, 51, 51);
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -3180,38 +3182,38 @@
 
 	.slider{
 		max-width: 700px;
-		border:10px solid  #5385c1;
+		border:7px solid  #ffffff;
+		border-radius: 25px;
 		margin:80px auto;
 		position: relative;
 		overflow: hidden;
-		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.281);
+		box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.281);
 	}
 	
 	.slider .left-slide,.slider .right-slide{
 	  position: absolute;
-	  height: 30px;
+	  height: 40px;
 	  width: 50px;
-	  background-color: #5385c1;
-	  color:#ffffff;
+	  background-color: #e8712267;
+	  color:#fff;
 	  font-size: 20px;
 	  font-weight: 900;
-	  bottom:0;
+	  top:50%;
 	  cursor: pointer;
 	  text-align: center;
-	  line-height: 30px;
-	  
+	  line-height: 40px;	  
 	}
 	.slider .left-slide:hover,.slider .right-slide:hover{
-	 border: 1px solid black;
-	 background-color: #ffffff;
+	
+	 background-color: #ffffff62;
 	 color: black;
 	}
 	
 	.slider .left-slide{
-		left: 0px;
+		left: 3px;
 	}
 	.slider .right-slide{
-		right: 0px;
+		right: 3px;
 	}
 	.slider .slider-items .item img{
 		max-width: 100%;
@@ -3234,8 +3236,7 @@
 	height: 30px;
 	bottom: 0px;
 	left: 0px;
-	background-color: rgb(0, 0, 0);
-	border: 1px solid black;
+	background-color: rgba(0, 0, 0, 0.377);
 	line-height: 30px;
 	text-align: center;
 	color: rgb(255, 255, 255);
