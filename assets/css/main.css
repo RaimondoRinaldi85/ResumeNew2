@@ -4,7 +4,15 @@
 
 /* Reset */
 
-/* rgb(188, 177, 250) */
+/* Variabili */
+:root {
+	--accent1: #e87222;
+	--accent2: #1461FB;
+	--text: #000;
+	--head1: #5385c1;
+	--head2: #fff;
+	--head3: #000;
+  }
 
 *{
 	scroll-behavior: smooth;
