@@ -1827,11 +1827,10 @@
 		}
 		section.special .about, .about .special .about {
 			text-align: left;
-			padding: 1em;
+			padding: 1em 0 0 0;
 			border-radius: 20px;
 			border-top: 1px #1461fb78 solid;
 			border-bottom: 1px #e19d5d93 solid;
-			margin-bottom: 3em;
 			box-shadow: 0px 0px 0px black !important;
 		}
 
@@ -3184,11 +3183,6 @@
 
 /* Footer */
 
-	#footer .inner {
-
-		padding-top: 1em;
-	}
-
 	#footer .copyright {
 		text-align: center;
 		color: rgb(129, 129, 129);
@@ -3200,7 +3194,7 @@
 	@media screen and (max-width: 736px) {
 
 		#footer .inner {
-			padding-top: 2em;
+			padding-top: 1em;
 		}
 
 		#footer .copyright {
@@ -3228,56 +3222,6 @@
 		}
 
 	}
-
-	
-
-
-
-
-
-
-
-
-.contact{
-	color: white;
-	background-image: url(../../images/3d/3.jpg);
-	background-position: bottom;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding: 3em;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Raimondo Utilities */
@@ -3311,6 +3255,44 @@
 
 
 
+/* ObserverJS */
+
+.anim{
+    opacity: 0;
+}
+.animation{
+    opacity: 0;
+}
+@keyframes anim1 {
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes animup {
+    from{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes animright {
+    from{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 
 
 
