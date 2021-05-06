@@ -80,16 +80,14 @@ html, body {
 	transition: ease-in-out 0.3s;
 }
 
-@media(max-width: 1200px){
+@media(min-width: 1200px){
   .slide {
     padding: 3rem;
   }
-
-  .social-media{
-	position: absolute;  
-	top: 50px
-  }
 }
+
+
+
 
 .slide img{
   max-width: 100%;
