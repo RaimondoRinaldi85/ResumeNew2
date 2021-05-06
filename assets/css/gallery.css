@@ -19,6 +19,25 @@ html, body {
   background-image: url(../../images/2.png);
 }
 
+.icon {
+	text-decoration: none;
+	border-bottom: none;
+	position: relative;
+}
+
+	.icon:before {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+	}
+
+	.icon > .label {
+		display: none;
+	}
+
 .slider-container {
   height: 80vh;
   display: inline-flex;
@@ -39,9 +58,36 @@ html, body {
   padding: 1rem;
 }
 
-@media(min-width: 1200px){
+.social-media{
+	position: absolute;
+  	z-index:999;
+  	bottom: 150px;
+  	display: flex;
+ 	width: 100%;
+ 	justify-content: center;
+  	color: black;
+	list-style: none;
+}
+
+.social-media li a{
+	font-size: 1.5rem;
+	color: white;
+	margin-left: 1rem;
+}
+
+.social-media li a:hover{
+	color: black;
+	transition: ease-in-out 0.3s;
+}
+
+@media(max-width: 1200px){
   .slide {
     padding: 3rem;
+  }
+
+  .social-media{
+	position: absolute;  
+	top: 50px
   }
 }
 
@@ -379,7 +425,7 @@ input[type="submit"],
 			input[type="button"],
 			button,
 			.button {
-				padding: 0;
+				padding: 0 2rem;
 				width: 100%;
 			}
 
