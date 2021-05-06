@@ -61,7 +61,7 @@ html, body {
 .social-media{
 	position: absolute;
   	z-index:999;
-  	bottom: 150px;
+  	top: 10px;
   	display: flex;
  	width: 100%;
  	justify-content: center;
@@ -71,7 +71,7 @@ html, body {
 
 .social-media li a{
 	font-size: 1.5rem;
-	color: white;
+	color: #5385c1;
 	margin-left: 1rem;
 }
 
